@@ -4,8 +4,8 @@ A little story of a magical advanture.
 ![fsm](https://github.com/shaohey0930/computation_theory_project/blob/master/fsm.png)
 ## Usage
 The initial state is set to `user`  
-    -state: `user`  
-        -input: `開始`  
+    * state: `user`  
+        * input: `開始`  
             * Reply:"在一座寬廣的森林裡...[請選擇"冒險"或是"待在原地"]"  
             * input: `待在原地`  
                 - Reply: "你也太廢了吧，趕快離開這裡!![請選擇"冒險"^_^]"
