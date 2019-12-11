@@ -51,7 +51,7 @@ class TocMachine(GraphMachine):
     def meet_crow(self, event):
         text = event.message.text
         return text.lower() == "繼續前進"
-############################################################################################
+###########################################################################################
     def on_enter_init(self, event):
         print("I'm entering init")
         reply_token = event.reply_token
